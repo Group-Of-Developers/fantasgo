@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tablelayout_thread"
+     >
+
+     <TableRow
+         android:id="@+id/table1"
+         android:layout_width="match_parent" 
+         android:layout_height="match_parent"
+         android:padding="10dp" >
+        <!-- 
+         <RelativeLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+             > 
+              -->
+     <FrameLayout
+         android:id="@+id/frame1"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         >         
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="why to buy samsun if i am here to enjoy the tak tha kill taskmanager in nadroid bhakkkkkkkk"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </FrameLayout>
+    
+     <FrameLayout
+         android:id="@+id/frame2"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="0" >
+
+        <TextView
+            android:id="@+id/dates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="25/10/13"
+             />
+
+        </FrameLayout>
+
+   	</TableRow>
+	</TableLayout>

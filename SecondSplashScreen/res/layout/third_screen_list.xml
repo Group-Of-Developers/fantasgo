@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tablelayout_thread"
+     >
+
+     <TableRow
+         android:id="@+id/table1"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content"
+         android:padding="10dp" 
+         >
+       
+         <FrameLayout
+         android:id="@+id/frame0"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="0"
+         >    
+     <ImageView 
+         android:id="@+id/imagethumbnail"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_gravity="left|center"
+         android:src="@drawable/ic_launcher"
+         android:contentDescription="@string/app_name"
+         />
+             
+     </FrameLayout>
+     
+     <FrameLayout
+         android:id="@+id/frame1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:layout_marginLeft="7dp"
+         >         
+ <RelativeLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             > 
+             <TextView
+        android:id="@+id/username_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="user_123_11"
+         />
+     
+    <TextView
+        android:id="@+id/user_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_comment"
+        android:singleLine="true"
+        android:text="why to buy samsun if i am here to enjoy the tak tha kill taskmanager in nadroid bhakkkkkkkk"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+    </FrameLayout>
+    
+     <FrameLayout
+         android:id="@+id/frame2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="0"
+         >
+
+         <RelativeLayout
+            android:id="@+id/linear_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+             >
+
+        <TextView
+            android:id="@+id/comment_dates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25/10/13" />
+
+		</RelativeLayout>
+        </FrameLayout>
+
+   	</TableRow>
+	</TableLayout>

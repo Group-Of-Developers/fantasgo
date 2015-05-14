@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+	>
+	
+    <TextView
+        android:id="@+id/overlayed"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/overlayed_space"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/layout_gradient"
+        android:gravity="center" />
+    
+         <TextView
+         android:id="@+id/fantasgo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/overlayed"
+         android:layout_alignBottom="@+id/overlayed"
+         android:layout_alignLeft="@+id/overlayed"
+         android:gravity="center"
+         android:text="@string/app_name"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFF" />
+    
+     <TextView
+        android:id="@+id/overlayed_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lainear"
+        android:gravity="center" />
+    
+    <LinearLayout
+        android:id="@+id/lainear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         android:padding="5dp"
+        >
+    <EditText
+        android:id="@+id/loginfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="@string/loginfields"
+        android:background="@drawable/edit_text_custom"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:padding="10dp"
+         >
+      <requestFocus />
+    </EditText>
+    
+    </LinearLayout>
+    
+   
+
+     <LinearLayout
+        android:id="@+id/lainear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lainear"
+        android:layout_marginTop="10dp"
+         android:padding="5dp"
+        >
+         
+    
+    <EditText
+        android:id="@+id/passwordfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_custom"
+        android:padding="10dp"
+       android:textColor="#000"
+       android:textColorHint="#000"
+       android:hint="@string/passfields" />
+    
+    </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/botm"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:padding="7dp"
+          >
+    <Button
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/login"
+        android:textColor="#FFF"
+        android:layout_weight="1" 
+        />
+    
+    
+    <Button
+        android:id="@+id/register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/registerbtn"
+        android:textColor="#FFF"
+        android:layout_weight="1" 
+        />
+    
+    </LinearLayout>
+
+    
+</RelativeLayout>

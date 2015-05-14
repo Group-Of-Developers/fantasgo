@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fantasgo</string>
+    <string name="Add_Comment">Add Comment</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="loginfields">Phone Number</string>
+    <string name="re_enter">Confirm Password</string>
+    <string name="passfields">Password</string>
+    <string name="registerbtn">Register</string>
+    <string name="user_Name">Full Name</string>
+    <string name="mobile_no">Mobile No.(Username)</string>
+    <string name="d_o_b">Date of birth (dd/mm/yyy)</string>
+    <string name="sex">Sex</string>
+    <string name="email">E-Mail</string>
+    <string name="terms">Accept and Continue</string>
+    <string name="Continued">Continue</string>
+    <string name="showing_terms">
+        This application is developeed by Group of developers Dehradun \n
+All the Rights are reserved by G.o.D UPES Dehradun \n
+This screen will be removed on agreement between the Fantasgo \n
+and G.o.D, UPES \n
+Hope to hear from You Soon,
+Instructions \n
+1.) Login and Register by phone number \n
+2.)long press any item to see deatailed view \n
+3.)In case you forgot your password please contact the admin \n
+\n  
+\n
+\n
+
+Contact us \n
+Group of developers \n
+Upes Dehradun \n
+Bidholi \n
+248007 \n
+Phno (+91)9634857511 \n
+    
+    </string>
+    <string name="comment">Add Comment</string>
+    
+</resources>

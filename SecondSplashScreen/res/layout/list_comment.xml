@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <TableRow 
+        android:id="@+id/tablerow1s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+<ListView
+    android:id="@+id/list_comment_section"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    />
+</TableRow>
+
+    <TableRow 
+        android:id="@+id/tablerow1d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="5dp"
+        >
+
+      		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="#243064"
+		    android:layout_weight="1"
+		    android:padding="5dp" 
+		    >
+		     
+		    <ImageButton
+		        android:id="@+id/comment_post_img"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/image_view_selector"
+		        android:src="@android:drawable/ic_input_add"
+		        />
+		    
+		    <ImageButton
+		        android:id="@+id/comment_post_load"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:background="@drawable/image_view_selector"
+		        android:src="@android:drawable/ic_media_ff"
+		        />
+		    
+		     <ImageButton
+		        android:id="@+id/comment_post_refresh"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginRight="10dp"
+		        android:background="@drawable/image_view_selector"
+		      	android:src="@android:drawable/ic_popup_sync"
+		        />
+		    		    
+		</RelativeLayout> 
+
+        </TableRow>
+</TableLayout>

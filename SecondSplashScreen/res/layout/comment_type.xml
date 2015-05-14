@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     
+     >
+		<TextView 
+        android:id="@+id/comment_type_textview_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Positive Comments"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="20dp"
+       />
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignRight="@+id/comment_type_textview_positive"
+		    android:layout_marginLeft="6dp"
+		   android:paddingTop="22dp"
+		  
+		    >
+ 	<TextView
+ 	    android:id="@+id/positive_count"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/comment_layout"
+ 	    android:text="999+"
+ 	    android:textColor="#FFF" />
+       
+	 	</LinearLayout>
+</RelativeLayout>

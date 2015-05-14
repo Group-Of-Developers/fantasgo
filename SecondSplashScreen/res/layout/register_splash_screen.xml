@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+     >
+    
+    <ImageView 
+        android:id="@+id/signupimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/signup1"
+        android:scaleType="fitXY"
+        />
+    
+     <ImageView 
+        android:id="@+id/itsfree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/itd_free"
+        android:scaleType="fitXY"
+        />
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="15dp"
+         android:padding="5dp"
+         >
+
+     <Button
+         android:id="@+id/next_register_click"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button"
+         android:text="Next"
+         android:textColor="#FFF"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+          />
+
+     </LinearLayout>
+</RelativeLayout>
